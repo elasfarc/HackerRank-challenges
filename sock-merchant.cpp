@@ -1,7 +1,8 @@
-// Complete the sockMerchant function below.
-// function returns @numPairs :
-// calculate how many pieces of each @color and store it @eachColorCounter
+/* challenge link -> http://hr.gs/eabbdd
+function returns @numPairs :
+calculate how many pieces of each @color and store it @eachColorCounter */
 
+//Complete the sockMerchant function below.
 int sockMerchant(int n, vector<int> ar) {
 
     int numPairs = 0;
