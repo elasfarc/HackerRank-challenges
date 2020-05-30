@@ -15,21 +15,21 @@ from p1 to p4  2 pages turned                  from n to p4  3 pages turned
 int pageCount(int n, int p) {
     /*
      * Write your code here.*/
-     int pagesMinNumLeftToRight = 0;
-     int pagesMinNumRightToLeft = 0;
+     int pagesTurnedFromLeftToRight = 0;
+     int pagesTurnedFromRightToLeft = 0;
 
      //if p not an even number(located on left) p->the previous one
      if (p % 2 != 0){p-=1; }
 
      //case number one starting from left to right ( p1)
-     pagesMinNumLeftToRight = p / 2;
+     pagesTurnedFromLeftToRight = p / 2;
 
      //case number two starting from right to left (n)
-     pagesMinNumRightToLeft = (n - p) / 2;
+     pagesTurnedFromRightToLeft = (n - p) / 2;
 
-     if (pagesMinNumLeftToRight <= pagesMinNumRightToLeft )
-     return pagesMinNumLeftToRight;
+     if (pagesTurnedFromLeftToRight <= pagesTurnedFromRightToLeft )
+     return pagesTurnedFromLeftToRight;
      else
-     return pagesMinNumRightToLeft;
+     return pagesTurnedFromRightToLeft;
 
 }
