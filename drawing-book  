@@ -14,8 +14,7 @@ from p1 to p4  2 pages turned                  from n to p4  3 pages turned
 
 int pageCount(int n, int p) {
     /*
-     * Write your code here.
-     int  = 0;
+     * Write your code here.*/
      int pagesMinNumLeftToRight = 0;
      int pagesMinNumRightToLeft = 0;
 
